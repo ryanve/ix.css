@@ -1,0 +1,30 @@
+{
+  "name": "ix.css",
+  "version": "0.0.0",
+  "description": "Functional CSS interaction classes",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "main.css",
+  "scripts": {
+    "start": "npm run css",
+    "css": "postcss module.css --use autoprefixer --no-map -o main.css"
+  },
+  "homepage": "https://github.com/ryanve/ix.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/ix.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/ix.css/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "postcss-cli": "^4.1.0"
+  },
+  "keywords": [
+    "functional-css",
+    "interaction",
+    "css",
+    "ui"
+  ]
+}

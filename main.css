@@ -1,0 +1,12 @@
+.touch-none {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.touch-fast { -ms-touch-action: manipulation; touch-action: manipulation }
+.touch-auto { -ms-touch-action: auto; touch-action: auto }
+
+.events-none { pointer-events: none }
+.events-auto { pointer-events: auto }
